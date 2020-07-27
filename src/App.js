@@ -11,7 +11,7 @@ class TodoList extends React.Component {
     this.props.removeTodo(item, i);
   }
 
-  render() {
+  render() {  
     return (
       <div>
         <ul>
@@ -91,7 +91,7 @@ class App extends React.Component {
     return (
       <div className="app container">
         <div className="title">
-          <h1>React Todo App</h1>
+          <h1>Your Daily Tasks</h1>
           <Todos />
         </div>
       </div>
